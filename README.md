@@ -1,4 +1,4 @@
-# Honors Software Engineering Work Log
+# Honors Computer Concepts Work Log
 
 **Period C · 2026–27 · Mr. DeVaughn-Brown · Room U 108**
 
