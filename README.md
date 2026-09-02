@@ -14,7 +14,7 @@ Clone it somewhere sane:
 ```
 cd ~/version_control
 git clone <your-repo-url>
-cd hse-2026-2027-student-log-<your-username>
+cd hcc-2026-2027-student-log-<your-username>
 ```
 
 > **On Windows, do all of this in Git Bash.** Not Command Prompt, not
