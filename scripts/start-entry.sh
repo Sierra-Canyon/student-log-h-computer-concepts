@@ -1,11 +1,15 @@
 #!/bin/bash -e
-# Honors Software Engineering — start a log entry for today.
+# Honors Computer Concepts: start a log entry for today.
 # Nine lines. Read them; you will be able to follow all of them by October.
 
 # Sync with GitHub. "|| true" means: if the network is down, keep going anyway
 # instead of stopping. A script that refuses to work on a train is a script you
 # stop using.
 git pull --quiet 2>/dev/null || true
+
+# Turn on the commit helper in .githooks/. When you run `git commit` it asks
+# whether you are in class or out of class and writes the message for you.
+git config core.hooksPath .githooks
 
 FILENAME="logs/$(date +'%Y-%m-%d').log.md"        # one file per day, sortable
 touch "$FILENAME"                                 # create it if it isn't there
